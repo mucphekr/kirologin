@@ -1,0 +1,21 @@
+# Never commit customer tokens or local secrets.
+*.json
+*.token
+*.secret
+*.env
+*.log
+*.bak
+*.sqlite
+*.sqlite3
+
+# Local build/cache folders.
+build/
+dist/
+__pycache__/
+.pytest_cache/
+
+# OS/editor noise.
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
