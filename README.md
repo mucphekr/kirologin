@@ -12,7 +12,7 @@ Thông tin bản hiện tại:
 
 - Tên file: `KiroJsonIdeLogin.exe`
 - Dung lượng: khoảng `13.5 MB`
-- SHA256: `AE0038114F4EFDD16E0D4A2224F4E8EFD8300556AA21330E6B0FE6174308C942`
+- SHA256: `37EA70D50192A0C821D3D61F9A7C31AFCA28FBDD420BB5D4C37F7EF1398C1485`
 
 ## Cách sử dụng
 
@@ -33,6 +33,7 @@ Thông tin bản hiện tại:
 - Nếu Kiro IDE vẫn hiện tài khoản cũ, hãy thoát hẳn Kiro IDE trong Task Manager rồi mở lại.
 - Nếu Kiro IDE vẫn hiện màn `Sign in to view your account`, hãy đóng toàn bộ process `Kiro.exe`, chạy lại tool, rồi mở lại Kiro IDE.
 - Bản mới có nút `Đóng Kiro IDE` để đóng nhanh trước khi đăng nhập.
+- Bản hiện tại đã sửa lỗi token `social` bị nhận nhầm thành IdC và lỗi ghi lại thời hạn `expired` cũ.
 - File JSON có `refresh_token`, cần xem như mật khẩu đăng nhập.
 - Không gửi file JSON cho người khác và không upload file JSON lên GitHub.
 - Repo này chỉ chứa tool `.exe`, không chứa token của bất kỳ tài khoản nào.
